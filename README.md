@@ -5,6 +5,32 @@
 * **Zundullah B. Djibat** - *2006464505* - *APAP SP*
 
 ---
+## Tutorial 4
+### What I have learned today
+Pada tutorial kali ini, saya mempelajari tentang common command pada React beserta kegunaanya. Selain itu, saya juga mempelajari mengenai kompatibilitas dari dependensi React yang saya gunakan.
+
+### PERTANYAAN:
+#### 1. Jelaskan maksud compatibility dan deprecated terkait dependency!
+Compatibility adalah kemampuan dua atau lebih komponen untuk bekerja sama secara efektif. Dalam konteks dependency, compatibility mengacu pada kemampuan dua atau lebih library untuk bekerja sama secara efektif sehingga aplikasi bisa berjalan dengan lancar
+Deprecated adalah istilah yang digunakan untuk menggambarkan sesuatu yang tidak lagi didukung. Dalam konteks dependency, deprecated mengacu pada library yang tidak lagi didukung oleh pengembangnya. Jika suatu aplikasi menggunakan dependency yang bersifat deprecated, maka vulnerabilitas aplikasi tersebut menurun dan mudah untuk terkena ancaman security dan bug.
+#### 2. Mengapa memilih versi yang stabil lebih diprioritaskan dibandingkan memilih versi yang terbaru tetapi belum stabil?
+Dalam memilih dependency, disarankan selalu menggunakan versi stabil dibandingkan versi terbaru yang belum stabil karena versi yang stabil sendiri sudah dipastikan aman dari sisi security serta compatibility. Artinya
+aplikasi yang mengggunakan dependency yang stable tidak beresiko untuk mengalami masalah atau gangguan.
+Dependency yang terbaru dan kurang stabil tidak disarankan karena dari sisi compatibility bisa saja ada library yang belum support dependency versi terbaru, selain itu 
+dari sisi security lumayan beresiko karena versi yang belum stabil.
+#### Selain menggunakan npm, dapat digunakan juga command yarn. Tuliskan command yarn yang setara dengan command-command npm diatas (apabila ada)
+Command npm dengan pasangan command yarn:
+- npm install dan yarn add
+- npm uninstall dan yarn remove
+- npm update dan yarn upgrade
+- npm audit dan yarn audit
+- npm start dan yarn start
+### What I did not understand
+- []
+
+
+
+---
 ## Tutorial 3
 ### What I have learned today
 Pada tutorial kali ini saya sudah mempelajari bagaimana cara menginstall dan menggunakan React.js untuk membuat suatu aplikasi ecommerce sederhana.
