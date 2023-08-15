@@ -5,6 +5,35 @@
 * **Zundullah B. Djibat** - *2006464505* - *APAP SP*
 
 ---
+## Tutorial 3
+### What I have learned today
+Pada tutorial kali ini saya sudah mempelajari bagaimana cara menginstall dan menggunakan React.js untuk membuat suatu aplikasi ecommerce sederhana.
+Saya juga mempelajari mengenai apa itu STATEFUL dan STATELESS dalam suatu component yang dibuat dalam React.
+
+### PERTANYAAN
+#### 1. Menurut pemahaman kamu selama pengerjaan tutorial ini, apa perbedaan antara state dan props?
+State adalah jenis data yang disimpan dalam suatu component. Pada tutorial kali ini, state adalah daftar dari produk yang tersedia baik di daftar produk utama maupun daftar produk yang berada di keranjang.
+Props sendiri adalah jenis data yang dikirimkan dari suatu component ke component lainnya, misalnya component induk. Dalam tutorial kali ini, props merupakan data jumlah produk yang dimasukkan kedalam keranjang dan ditandai jumlahnya pada tombol keranjang yang sudah dibuat
+#### 2. Menurut kamu, apakah sebaiknya kita menggunakan component (e.g. List, Item) dalam React? sebutkan alasannya.
+Menurut saya, penggunaan component-component tesebut harus sesuai dengan tujuan atau fitur apa yang ingin kita kembangkan dalam react. Fitur List sendiri akan membuat suatu list dari data serta Item befungsi untuk menampilkan detail data apa saja yang kita miliki.
+Selain itu, keuntungannya adalah komponen membuat kode lebih mudah dipahami dan dikelola.
+#### 3. Apa perbedaan class component dan functional component?
+Class component adalah komponen dalam React yang menggunakan class serta merupakan inheritance dari React.component. Class component sendiri menggunakan render() untuk memunculkan tampilan.
+Functional component adalah komponen dalam React yang dibentuk seperti fungsi javascript biasa. Functional component sendiri merupakan jenis komponen yang bersifat "baru"
+karena pengembangan aplikasi React sekarang lebih sering menggunakan Functional component dibanding Class component. Untuk syntaks, Class component lebih kompleks dibandingkan Functional Component.
+Hal tersebut karena  Class component memerlukan this. untuk declare variabel yang digunakan. Functional component tidak memerlukan this.
+#### 4. Dalam react, apakah perbedaan component dan element?
+Component adalah blok bangunan dasar dari aplikasi React. Component dapat digunakan untuk membuat tampilan yang kompleks dan dapat digunakan kembali. Elemen adalah representasi dari Component di DOM. Elemen dibuat oleh component dan dirender oleh React DOM.
+Berikut adalah beberapa perbedaan utama antara komponen dan elemen:
+- Component adalah fungsi, sedangkan elemen adalah objek.
+- Component dapat memiliki state dan props, sedangkan elemen tidak dapat memiliki state atau props.
+- Component dapat menangani peristiwa, sedangkan elemen tidak dapat menangani peristiwa.
+- Component dapat digunakan untuk membuat tampilan yang kompleks, sedangkan elemen hanya dapat digunakan untuk membuat tampilan yang sederhana.
+- Component dapat digunakan kembali, sedangkan elemen tidak dapat digunakan kembali.
+### What I did not understand
+- [] Kenapa harus belajar React.js
+
+---
 ## Tutorial 2
 ### What I have learned today
 Pada tutorial kali ini, saya sudah mempelajari mengenai konsep MVC (Model, View, Contoller) dan implementasinya pada Springboot. Saya mempelajari bagaimana membuat fitur fitur
